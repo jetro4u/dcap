@@ -1,0 +1,29 @@
+{
+  "appType": "APP",
+  "short_name": "hims-data-capture",
+  "name": "HIMS Data Capture",
+  "description": "HIMS Data Capture",
+  "version": "1.0.0",
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*",
+      "namespace": "hims-data-capture"
+    }
+  },
+  "authorities": [
+    "DATA_CAPTURE_ADD_NEW",
+    "DATA_CAPTURE_UPDATE",
+    "DATA_CAPTURE_DELETE"
+  ],
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "developer": "Webclick",
+  "manifest_generated_at": "Fri Sep 09 2022 16:41:11 GMT+0100 (West Africa Standard Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hims-data-capture",
+  "title": "HIMS Data Capture",
+  "description": "HIMS Data Capture",
+  "author": "Webclick",
+  "dataStoreNamespace": "hims-data-capture",
+  "customAuthorities": [
+    "DATA_CAPTURE_ADD_NEW",
+    "DATA_CAPTURE_UPDATE",
+    "DATA_CAPTURE_DELETE"
+  ],
+  "minDHIS2Version": 2.38,
+  "type": "app",
+  "version": "1.0.0"
+}
